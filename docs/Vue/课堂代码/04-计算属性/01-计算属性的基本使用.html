@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"><meta>
+        <title>Title</title>
+    </head>
+    <body>
+        <div id="app">
+          <h2>{{fullName}}</h2>
+        </div>
+        <script src='../js/vue.js'></script>
+        <script>
+            //编程范式:声明式编程
+            const app = new Vue({ 
+                el:'#app',//用于挂载要管理的元素
+                data:{
+                    firstName:'Lebron',
+                    lastName:'James',
+                    books:[
+                      {'id':0,'name':'Unix编程艺术','price':119},
+                      {'id':1,'name':'代码大全','price':119},
+                      {'id':2,'name':'xxx3','price':119},
+                      {'id':3,'name':'xx4','price':119},
+                    ]
+                },
+                // computed:计算属性
+                computed: {
+                  fullName: {
+                    set: function () {
+                      console.log('xxx')
+                    },
+                    get: function () {
+                      return this.firstName + ' ' + this.lastName
+                    },
+                  }
+                },
+                methods: {
+
+                }
+            })
+        </script>
+    </body>
+</html>

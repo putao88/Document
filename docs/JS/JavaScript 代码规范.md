@@ -1,0 +1,68 @@
+1.变量名
+    1)变量名推荐使用驼峰法来命名(camelCase):
+        firstName = "John";
+        lastName = "Doe";
+
+        price = 19.90;
+        tax = 0.20;
+
+        fullPrice = price + (price * tax);
+
+2.空格与运算符
+    1)通常运算符 ( = + - * / ) 前后需要添加空格
+
+3.代码缩进
+    通常使用 4 个空格符号来缩进代码块：
+
+4.语句规则
+    1)简单语句的通用规则:
+        一条语句通常以分号作为结束符。
+        var values = ["Volvo", "Saab", "Fiat"];
+        var person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 50,
+            eyeColor: "blue"
+        };
+    2)复杂语句的通用规则:
+        将左花括号放在第一行的结尾。
+        左花括号前添加一空格。
+        将右花括号独立放在一行。
+        不要以分号结束一个复杂的声明。
+        function toCelsius(fahrenheit) {
+            return (5 / 9) * (fahrenheit - 32);
+        }
+
+5.对象规则
+    将左花括号与类名放在同一行。
+    冒号与属性值间有个空格。
+    字符串使用双引号，数字不需要。
+    最后一个属性-值对后面不要添加逗号。
+    将右花括号独立放在一行，并以分号作为结束符号。
+    短的对象代码可以直接写成一行:
+
+6.每行代码字符小于 80
+    为了便于阅读每行字符建议小于数 80 个。
+    如果一个 JavaScript 语句超过了 80 个字符，建议在 运算符或者逗号后换行。
+    document.getElementById("demo").innerHTML =
+    "Hello Runoob.";
+
+7.命名规则
+    1)一般很多代码语言的命名规则都是类似的，例如:
+        变量和函数为小驼峰法标识, 即除第一个单词之外，其他单词首字母大写（ lowerCamelCase）
+        全局变量为大写 (UPPERCASE )
+        常量 (如 PI) 为大写 (UPPERCASE )
+    2)变量命名你是否使用这几种规则： hyp-hens, camelCase, 或 under_scores ?
+        HTML 和 CSS 的横杠(-)字符:
+        HTML5 属性可以以 data- (如：data-quantity, data-price) 作为前缀。
+        CSS 使用 - 来连接属性名 (font-size)
+    3)下划线:
+        很多程序员比较喜欢使用下划线(如：date_of_birth), 特别是在 SQL 数据库中。
+        PHP 语言通常都使用下划线。
+        帕斯卡拼写法(PascalCase):
+        帕斯卡拼写法(PascalCase) 在 C 语言中语言较多
+    4)使用小写文件名
+        大多 Web 服务器 (Apache, Unix) 对大小写敏感： london.jpg 不能通过 London.jpg 访问。
+        其他 Web 服务器 (Microsoft, IIS) 对大小写不敏感： london.jpg 可以通过 London.jpg 或 london.jpg 访问。
+        你必须保持统一的风格，我们建议统一使用小写的文件名。
+
