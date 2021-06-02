@@ -27,6 +27,26 @@ module.exports = {
 					]
 				},
 			],
+			'/Git/': [
+				{
+					title: 'Git',   // 一级菜单名称
+					collapsable: false, // false为默认展开菜单, 默认值true是折叠,
+					sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+					children: [
+							['基础用法', '基础用法'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+					]
+				},
+			],
+			'/资源分享/': [
+				{
+					title: '资源分享',   // 一级菜单名称
+					collapsable: false, // false为默认展开菜单, 默认值true是折叠,
+					sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+					children: [
+							['在线工具', '在线工具'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+					]
+				},
+			],
 		}
 	}
 };
