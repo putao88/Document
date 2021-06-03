@@ -55,9 +55,9 @@ module.exports = {
 				]
 			},
 			{
-				title: 'NodeJs', 
+				title: 'NodeJS', 
 				children: [
-						['/NodeJs/Express', 'Express'],
+						['/NodeJS/Express', 'Express'],
 				]
 			},
 			{
@@ -82,8 +82,8 @@ module.exports = {
 				{
 					title: '博客搭建', 
 					children: [
-							['/博客搭建/搭建步骤', '搭建步骤'],
-							['/博客搭建/疑难问题', '疑难问题'],
+							['/博客搭建/1.搭建步骤', '1.搭建步骤'],
+							['/博客搭建/2.疑难问题', '2.疑难问题'],
 					]
 				},
 
