@@ -5,48 +5,106 @@ module.exports = {
 	head: [
 	  ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
 	],
-	base: '/document/', // 这是部署到github相关的配置 下面会讲
+	base: '', // 这是部署到github相关的配置 下面会讲
 	markdown: {
 	  lineNumbers: true // 代码块显示行号
 	},
 	themeConfig: {
 	  sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
+		collapsable: true, 
 	  lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
 	  nav:[ //导航
 			{ text: '博客', link: 'http://www.putao88.live/' }, // 外部链接
 			{ text: 'GitHub', link: 'https://github.com/putao88/Document' }, // 内部链接 以docs为根目录
 	  ],
-	  sidebar:{ 
-			'/flutter/': [
+	  sidebar:[
+			{
+				title: '前端面试准备', 
+				children: [
+						['/前端面试准备/CSS', 'CSS'],
+						['/前端面试准备/JavaScript', 'JavaScript'],
+						['/前端面试准备/浏览器', '浏览器'],
+						['/前端面试准备/面试记录', '面试记录'],
+						['/前端面试准备/资源', '资源'],
+				]
+			},
+			{
+				title: '常用知识点总结', 
+				children: [
+						['/常用知识点总结/1.常用的正则校验', '1.常用的正则校验'],
+						['/常用知识点总结/2.工作中常见问题', '2.工作中常见问题'],
+						['/常用知识点总结/3.常用数组方法', '3.常用数组方法'],
+				]
+			},
+			{
+				title: 'Vue', 
+				children: [
+						['/Vue/', '基础知识'],
+				]
+			},
+			{
+				title: 'JavaScript', 
+				children: [
+						['/JavaScript/查漏补缺，（严格模式)', '查漏补缺，（严格模式)'],
+						['/JavaScript/定义变量和函数', '定义变量和函数'],
+						['/JavaScript/正则表达式', '正则表达式'],
+						['/JavaScript/JavaScript 代码规范', 'JavaScript 代码规范'],
+						['/JavaScript/JS函数—函数参数', 'JS函数—函数参数'],
+						['/JavaScript/JS函数—函数调用和闭包', 'JS函数—函数调用和闭包'],
+						['/JavaScript/JS函数—函数定义', 'JS函数—函数定义'],
+				]
+			},
+			{
+				title: 'NodeJs', 
+				children: [
+						['/NodeJs/Express', 'Express'],
+				]
+			},
+			{
+				title: 'ReactNative', 
+				children: [
+						['/ReactNative/1.安装及配置', '1.安装及配置'],
+				]
+			},
+			{
+				title: 'TypeScript', 
+				children: [
+						['/TypeScript/介绍和JavaScript对比', '介绍和JavaScript对比'],
+				]
+			},
+			{
+				title: 'WeChat',
+				children: [
+						['/WeChat/微信小程序', '微信小程序'],  
+						['/WeChat/mpvue', 'mpvue'],  
+				]
+			},
 				{
-					title: 'flutter',   // 一级菜单名称
-					collapsable: false, // false为默认展开菜单, 默认值true是折叠,
-					sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+					title: '博客搭建', 
 					children: [
-							['AndroidStudio的安装及环境配置', 'AndroidStudio的安装及环境配置'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+							['/博客搭建/搭建步骤', '搭建步骤'],
+							['/博客搭建/疑难问题', '疑难问题'],
 					]
 				},
-			],
-			'/Git/': [
+
 				{
-					title: 'Git',   // 一级菜单名称
-					collapsable: false, // false为默认展开菜单, 默认值true是折叠,
-					sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+					title: 'flutter',
 					children: [
-							['基础用法', '基础用法'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+							['/flutter/AndroidStudio的安装及环境配置', 'AndroidStudio的安装及环境配置'],  
 					]
 				},
-			],
-			'/资源分享/': [
 				{
-					title: '资源分享',   // 一级菜单名称
-					collapsable: false, // false为默认展开菜单, 默认值true是折叠,
-					sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+					title: 'Git', 
 					children: [
-							['在线工具', '在线工具'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+							['/Git/基础用法', '基础用法'],
 					]
 				},
-			],
-		}
+				{
+					title: '资源分享',
+					children: [
+							['/资源分享/在线工具', '在线工具'],
+					]
+				},
+		]
 	}
 };

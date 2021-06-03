@@ -1,3 +1,10 @@
+### 1.初始化项目(myapp表示项目名称)
+    express --view=pug myapp
+
+### 2.运行项目
+    npm start
+
+### 踩坑记录
 #### 1.关于jwt6.0.0版本algorithms should be set报错的解决方案
     只需要增加一条algorithms的设置就可以了
     https://copyfuture.com/blogs-details/202007091338542617f9kipfuk4035p1
