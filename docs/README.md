@@ -4,7 +4,7 @@ heroText: 葡萄的文档
 heroImage: /background.jpg
 tagline: 但行好事，莫问前程
 actionText: 开始阅读 →
-actionLink: /前端面试准备/CSS.html
+actionLink: /前端面试准备/概览.html
 features:
 - title: 技术分享
   details: 平时学习工作中总结的技术知识

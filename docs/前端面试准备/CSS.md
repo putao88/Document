@@ -1,5 +1,5 @@
 ## 1.什么是BFC
-相关连接：https://juejin.cn/post/6844903544726749198#comment
+[相关连接](https://juejin.cn/post/6844903544726749198#comment)
 
 ### 1.BFC定义
 #### 1、Box:css布局的基本单位
