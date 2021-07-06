@@ -44,19 +44,13 @@ module.exports = {
 			{
 				title: 'Vue', 
 				children: [
-						['/Vue/', '基础知识'],
+						['/Vue/基础知识', '基础知识'],
 				]
 			},
 			{
 				title: 'JavaScript', 
 				children: [
-						['/JavaScript/查漏补缺，（严格模式)', '查漏补缺，（严格模式)'],
-						['/JavaScript/定义变量和函数', '定义变量和函数'],
-						['/JavaScript/正则表达式', '正则表达式'],
-						['/JavaScript/JavaScript 代码规范', 'JavaScript 代码规范'],
-						['/JavaScript/JS函数—函数参数', 'JS函数—函数参数'],
-						['/JavaScript/JS函数—函数调用和闭包', 'JS函数—函数调用和闭包'],
-						['/JavaScript/JS函数—函数定义', 'JS函数—函数定义'],
+					['/JavaScript/基础知识', '基础知识'],
 				]
 			},
 			{
