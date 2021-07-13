@@ -4,3 +4,7 @@
 ### 1. JavaScript 事件循环
 1. [JavaScript 执行机制](https://juejin.cn/post/6844903512845860872)
 2. [Promise面试题](https://juejin.cn/post/6844904077537574919)
+
+### 2.ajax请求
+#### 1.HTTP状态码
+![ajax常用状态码.png](/ajax常用状态码.png)
