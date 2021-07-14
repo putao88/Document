@@ -7,4 +7,12 @@
 
 ### 2.ajax请求
 #### 1.HTTP状态码
-![ajax常用状态码.png](/ajax常用状态码.png)
+![ajax常用状态码](/ajax常用状态码.png)
+
+### 3.JS继承
+1. [JS原型链与继承](https://juejin.cn/post/6844903475021627400)
+
+### 4. JS闭包
+1. [JS闭包](https://juejin.cn/post/6844903858636849159)
+### 5. this指向
+1. [this指向](https://juejin.cn/post/6946021671656488991)
