@@ -10,9 +10,13 @@
 ![ajax常用状态码](/ajax常用状态码.png)
 
 ### 3.JS继承
-1. [JS原型链与继承](https://juejin.cn/post/6844903475021627400)
+[JS原型链与继承](https://juejin.cn/post/6844903475021627400)
 
 ### 4. JS闭包
-1. [JS闭包](https://juejin.cn/post/6844903858636849159)
+[JS闭包](https://juejin.cn/post/6844903858636849159)
 ### 5. this指向
-1. [this关键字](https://juejin.cn/post/6844903939691773960)
+[this关键字](https://juejin.cn/post/6844903939691773960)
+
+### 6. JS垃圾回收机制
+1. [JS垃圾回收机制](https://juejin.cn/post/6981588276356317214)
+2. [JS内存泄漏导致页面卡顿现象](https://juejin.cn/post/6947841638118998029)
