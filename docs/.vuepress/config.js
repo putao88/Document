@@ -51,6 +51,7 @@ module.exports = {
 				title: 'JavaScript', 
 				children: [
 					['/JavaScript/基础知识', '基础知识'],
+					['/JavaScript/面向对象编程', '面向对象编程'],
 				]
 			},
 			{
