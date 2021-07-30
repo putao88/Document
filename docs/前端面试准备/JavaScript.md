@@ -13,7 +13,11 @@
 [JS原型链与继承](https://juejin.cn/post/6844903475021627400)
 
 ### 4. JS闭包
+>闭包是指有权访问另一个 函数作用域中的变量的函数。
+>创建闭包的常见方式，就是在一个函数内部创建另一个函数当某个函数被调用时，会创建一个执行环境（execution context）及相应的作用域链。
+
 [JS闭包](https://juejin.cn/post/6844903858636849159)
+
 ### 5. this指向
 [this关键字](https://juejin.cn/post/6844903939691773960)
 
@@ -36,5 +40,10 @@
 
 #### 相关资源
 1. [深拷贝浅拷贝](https://juejin.cn/post/6844903929705136141)
+
+### 9.JavaScript 设计模式
+1. [JavaScript 中常见设计模式整理](https://juejin.cn/post/6844903607452581896)
+2. [JavaScript设计模式](https://juejin.cn/post/6844903503266054157)
+
 
 
