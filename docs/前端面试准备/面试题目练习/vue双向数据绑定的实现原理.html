@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"><meta>
+        <title>Title</title>
+    </head>
+    <body>
+        <div id="app">
+          姓名：<span id="spanName"></span>
+          <br>
+          <input type="text" id="inputName" />
+        </div>
+        <!-- <script src='../js/vue.js'></script> -->
+        <!-- <script>
+          /**
+           * vue2.0双向绑定
+           * 1.对原始数据进行克隆
+           * 2.需要分别给对象中每一个属性设置监听
+           */          
+
+          let obj = {
+            name:''
+          }
+          let newObj = JSON.parse(JSON.stringify(obj))
+          Object.defineProperty(obj,'name',{
+            get () {
+              return newObj.name
+            },
+            set(val) {
+              if (val === newObj.name) return ;
+              newObj.name = val
+              observer()
+            }
+
+          });
+          function observer() {
+            spanName.innerHTML = obj.name
+            inputName.value = obj.name
+          }
+          setTimeout(() => {
+            obj.name = "珠峰培训"
+          },1000)
+          inputName.oninput = function () {
+            obj.name = this.value
+          }
+
+        </script> -->
+        <script>
+          /**
+           * vue3.0双向绑定 
+           * 1.不用深克隆
+           * 2.不用对每个属性进行监（这样解决了2.0的未定义属性不会进行双向绑定的bug）
+           * 
+           */          
+          let obj = {};
+          obj = new Proxy(obj,{
+            get(target,prop) {
+              return target[prop]
+            },
+            set(target,prop,value) {
+              target[prop] = value
+              observer()
+            }
+          })
+          function observer() {
+            spanName.innerHTML = obj.name
+            inputName.value = obj.name
+          }
+          setTimeout(() => {
+            obj.name = "珠峰培训"
+          },1000)
+          inputName.oninput = function () {
+            obj.name = this.value
+          }
+
+        </script>
+    </body>
+</html>

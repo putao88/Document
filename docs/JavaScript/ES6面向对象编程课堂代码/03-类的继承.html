@@ -21,7 +21,9 @@
           }
           class Son extends Father {
             constructor(x,y) {
-              super(x,y);//调用了父类中的构造函数
+              //利用super调用了父类中的构造函数
+              //super必须在子类this之前调用
+              super(x,y);
             }
           }
           var son = new Son(1,2)

@@ -34,5 +34,8 @@ CSS2.1 中只有 BFC 和 IFC, CSS3 中还增加了 GFC 和 FFC。
     2、不和浮动元素重叠：具备BFC属性元素前有浮动元素时，他们内容不会重叠，常用于2列左右布局
     3、防止垂直 margin 重叠：2个相邻具备BFC属性的元素，上下都设置了margin时，不会重叠
 
+## Flex
+[阮一峰flex](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+
 
 
