@@ -45,10 +45,6 @@
 1. [JavaScript 中常见设计模式整理](https://juejin.cn/post/6844903607452581896)
 2. [JavaScript设计模式](https://juejin.cn/post/6844903503266054157)
 
-### 10.ES6
-1. [解构赋值](https://juejin.cn/post/6844903865259655181)
-2. [ES6之箭头函数](https://juejin.cn/post/6844903616231260174)
-3. [详解箭头函数和普通函数的区别以及箭头函数的注意事项、不适用场景](https://juejin.cn/post/6844903801799835655)
 
 
 
