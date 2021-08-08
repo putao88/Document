@@ -1,5 +1,14 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-08-05 18:36:01
+ * @LastEditTime: 2021-08-07 10:27:59
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /Document/docs/前端面试准备/ES6.md
+-->
 ## 1.相关资源
 1. [阮一峰ES6教程](https://es6.ruanyifeng.com/)
+1. [es6特性概括](https://juejin.cn/post/6844903959283367950)
 
 ## 2.知识点
 ### 1.箭头函数

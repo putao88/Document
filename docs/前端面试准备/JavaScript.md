@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-08-05 18:36:01
+ * @LastEditTime: 2021-08-08 17:29:29
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /Document/docs/前端面试准备/JavaScript.md
+-->
 ## 相关资源
 1. [由浅入深，66条JavaScript面试知识点](https://juejin.cn/post/6844904200917221389)
 ## 知识点
@@ -19,7 +27,10 @@
 [JS闭包](https://juejin.cn/post/6844903858636849159)
 
 ### 5. this指向
-[this关键字](https://juejin.cn/post/6844903939691773960)
+**注意**：运行时this永远指向最后调用它的那个对象。
+1. [this关键字](https://juejin.cn/post/6844903939691773960)
+2. [一文彻底搞懂JavaScript中的this、call、apply和bind](https://juejin.cn/post/6844904009308831751)
+3. [细说 call、apply 以及 bind 的区别和用法](https://juejin.cn/post/6844903768132157447)
 
 ### 6. JS垃圾回收机制
 1. [JS垃圾回收机制](https://juejin.cn/post/6981588276356317214)
@@ -44,6 +55,10 @@
 ### 9.JavaScript 设计模式
 1. [JavaScript 中常见设计模式整理](https://juejin.cn/post/6844903607452581896)
 2. [JavaScript设计模式](https://juejin.cn/post/6844903503266054157)
+
+### 10.模块化编程
+1. [前端模块化](https://juejin.cn/post/6844903576309858318)
+
 
 
 
