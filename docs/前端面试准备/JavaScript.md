@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-08-05 18:36:01
- * @LastEditTime: 2021-08-08 17:29:29
+ * @LastEditTime: 2021-08-09 22:52:15
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /Document/docs/前端面试准备/JavaScript.md
@@ -58,6 +58,10 @@
 
 ### 10.模块化编程
 1. [前端模块化](https://juejin.cn/post/6844903576309858318)
+
+### 11.JS数组
+1. [js 数组详细操作方法及解析合集](https://juejin.cn/post/6844903614918459406)
+
 
 
 
