@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-08-05 18:36:01
- * @LastEditTime: 2021-08-09 22:52:15
+ * @LastEditTime: 2021-08-11 00:44:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /Document/docs/前端面试准备/JavaScript.md
@@ -61,6 +61,9 @@
 
 ### 11.JS数组
 1. [js 数组详细操作方法及解析合集](https://juejin.cn/post/6844903614918459406)
+
+### 12.JS防抖节流
+1. [JS的节流和防抖](https://juejin.cn/post/6844903669389885453)
 
 
 
