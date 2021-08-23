@@ -53,6 +53,14 @@ module.exports = {
 				]
 			},
 			{
+				title: '浏览器', 
+				children: [
+						['/浏览器/基础知识', '基础知识'],
+						['/浏览器/跨域解决方案', '跨域解决方案'],
+
+				]
+			},
+			{
 				title: 'JavaScript', 
 				children: [
 					['/JavaScript/基础知识', '基础知识'],
