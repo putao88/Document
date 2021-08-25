@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-08-03 18:47:55
+ * @LastEditTime: 2021-08-25 15:46:28
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /Document/docs/前端面试准备/CSS.md
+-->
 ## CSS学习资源
 1. [CSS 基础拾遗（核心知识、常见需求）](https://juejin.cn/post/6941206439624966152)
 
@@ -7,7 +15,7 @@
 ## Sass和Less
 [Sass.vs.Less | 简介与比较](https://juejin.cn/post/6844904169313140749)
 ## BFC
-[相关连接](https://juejin.cn/post/6844903544726749198#comment)
+[相关连接](https://juejin.cn/post/6844903544726749198)
 
 ### 1.BFC定义
 #### 1、Box:css布局的基本单位
