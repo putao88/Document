@@ -14,7 +14,7 @@ module.exports = {
 		collapsable: true, 
 	  lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
 	  nav:[ //导航
-			{ text: '博客', link: 'http://www.putao88.live/' }, // 外部链接
+			{ text: '博客', link: 'https://putao88.github.io' }, // 外部链接
 			{ text: 'GitHub', link: 'https://github.com/putao88/Document' }, // 内部链接 以docs为根目录
 	  ],
 	  sidebar:[
