@@ -5,7 +5,8 @@
   "author": "putao",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-code-copy": "^1.0.6"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",

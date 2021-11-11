@@ -9,6 +9,7 @@ module.exports = {
 	markdown: {
 	  lineNumbers: true // 代码块显示行号
 	},
+	plugins:[['vuepress-plugin-code-copy',true]],
 	themeConfig: {
 	  sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
 		collapsable: true, 
@@ -22,6 +23,13 @@ module.exports = {
 				title: '前端学习路线', 
 				children: [
 						['/前端学习路线/概览', '概览'],
+				]
+			},
+			{
+				title: '资源分享',
+				children: [
+						['/资源分享/资源导航', '资源导航'],
+						['/资源分享/Github优秀项目', 'Github优秀项目'],
 				]
 			},
 			{
@@ -55,6 +63,7 @@ module.exports = {
 				title: 'JavaScript', 
 				children: [
 					['/JavaScript/基础知识', '基础知识'],
+					['/JavaScript/JavaScript之面向对象', 'JavaScript之面向对象'],
 					['/JavaScript/ES6面向对象编程', 'ES6面向对象编程'],
 				]
 			},
@@ -107,12 +116,6 @@ module.exports = {
 				title: 'Git', 
 				children: [
 						['/Git/基础用法', '基础用法'],
-				]
-			},
-			{
-				title: '资源分享',
-				children: [
-						['/资源分享/在线工具', '在线工具'],
 				]
 			},
 			{
