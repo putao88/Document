@@ -41,6 +41,15 @@ module.exports = {
 				]
 			},
 			{
+				title: 'JavaScript', 
+				children: [
+					['/JavaScript/基础知识', '基础知识'],
+					['/JavaScript/ES6面向对象编程', 'ES6面向对象编程'],
+					['/JavaScript/JavaScript之面向对象', 'JavaScript之面向对象'],
+					['/JavaScript/JavaScript之函数及作用域', 'JavaScript之函数及作用域'],
+				]
+			},
+			{
 				title: 'Vue', 
 				children: [
 						['/Vue/基础知识', '基础知识'],
@@ -57,14 +66,6 @@ module.exports = {
 				children: [
 						['/浏览器/基础知识', '基础知识'],
 						['/浏览器/同源策略', '同源策略'],
-				]
-			},
-			{
-				title: 'JavaScript', 
-				children: [
-					['/JavaScript/基础知识', '基础知识'],
-					['/JavaScript/JavaScript之面向对象', 'JavaScript之面向对象'],
-					['/JavaScript/ES6面向对象编程', 'ES6面向对象编程'],
 				]
 			},
 			{
