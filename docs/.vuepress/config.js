@@ -46,7 +46,7 @@ module.exports = {
 					['/JavaScript/基础知识', '基础知识'],
 					['/JavaScript/ES6面向对象编程', 'ES6面向对象编程'],
 					['/JavaScript/JavaScript之面向对象', 'JavaScript之面向对象'],
-					['/JavaScript/JavaScript之函数及作用域', 'JavaScript之函数及作用域'],
+					['/JavaScript/JavaScript之函数及执行环境', 'JavaScript之函数及执行环境'],
 				]
 			},
 			{
