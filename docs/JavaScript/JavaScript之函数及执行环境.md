@@ -5,17 +5,13 @@
 - 每个函数都有自己的执行环境，当执行流进入一个函数时，函数的环境就会被推入一个环境栈中。而在函数执行之后，栈将其环境弹出，把控制权限返回给之前的执行环境
 - execution context
     顾名思义 执行环境/执行上下文。在javascript中，执行环境可以抽象的理解为一个object，它由以下几个属性构成
-
 ```javascript
-    executionContext：{
-        variable object：vars,functions,arguments,
-        scope chain: variable object + all parents scopes
-        thisValue: context object
-    }
+executionContext：{
+    variable object：vars,functions,arguments,
+    scope chain: variable object + all parents scopes
+    thisValue: context object
+}
 ```
-
-
-
 ### 执行上下文
 - 可执行代码：全局代码、函数代码、eval代码
 - JavaScript 引擎创建了执行上下文栈（Execution context stack，ECS）来管理执行上下文
@@ -23,11 +19,6 @@
     1. 变量对象(Variable object，VO)
     2. 作用域链(Scope chain)
     3. this
-### 作用域链
-- javascript是使用静态作用域的语言，他的作用域在函数创建的时候便已经确定(不含arguments)
-- 当代码在在一个环境中执行时，会创建变量对象的一个作用域链
-- 作用域链的用途是保证对执行环境有权访问的所有变量和函数的有序访问
-- 作用域链本质上是一个指向变量对象的指针列表，它只引用，但不实际包含变量对象
 ### 变量对象
 - 变量对象是与执行上下文相关的数据作用域
 - 在函数上下文中，我们用活动对象(activation object, AO)来表示变量对象
@@ -47,6 +38,43 @@
     2. 函数上下文的变量对象初始化只包括 Arguments 对象
     3. 在进入执行上下文时会给变量对象添加形参、函数声明、变量声明等初始的属性值
     4. 在代码执行阶段，会再次修改变量对象的属性值
+
+### 作用域链
+- javascript是使用静态作用域的语言，他的作用域在函数创建的时候便已经确定(不含arguments)
+- 当代码在在一个环境中执行时，会创建变量对象的一个作用域链
+- 作用域链的用途是保证对执行环境有权访问的所有变量和函数的有序访问
+- 作用域链本质上是一个指向变量对象的指针列表，它只引用，但不实际包含变量对象
+
+### this
+- this指向
+    1. 函数是否在new中调用(new绑定)，如果是，那么this绑定的是新创建的对象。
+    2. 函数是否通过call,apply调用，或者使用了bind(即硬绑定)，如果是，那么this绑定的就是指定的对象。
+    3. 函数是否在某个上下文对象中调用(隐式绑定)，如果是的话，this绑定的是那个上下文对象。一般是obj.foo()
+    4. 如果以上都不是，那么使用默认绑定。如果在严格模式下，则绑定到undefined，否则绑定到全局对象。
+    5. 如果把null或者undefined作为this的绑定对象传入call、apply或者bind，这些值在调用时会被忽略，实际应用的是默认绑定规则。
+    6. 如果是箭头函数，箭头函数的this继承的是外层代码块的this。
+- bind
+    bind 方法的返回值是函数，并且需要稍后调用，才会执行
+    
+- call
+    1. 调用 call 的对象，必须是个函数 Function。
+    2. call 的第一个参数，是一个对象。 Function 的调用者，将会指向这个对象。如果不传，则默认为全局对象 window。
+    3. 第二个参数开始，可以接收任意个参数。每个参数会映射到相应位置的 Function 的参数上。但是如果将所有的参数作为数组传入，它们会作为一个整体映射到 Function 对应的第一个参数上，之后参数都为空
+- apply 
+    1. 它的调用者必须是函数 Function，并且只接收两个参数，第一个参数的规则与 call 一致。
+    2. 第二个参数，必须是数组或者类数组，它们会被转换成类数组，传入 Function 中，并且会被映射到 Function 对应的参数上。这也是 call 和 apply 之间，很重要的一个区别。
+- 类数组:
+    具备与数组特征类似的对象.比如，下面的这个对象，就是一个类数组。我们获取 DOM 节点的方法，返回的就是一个类数组。
+    但是需要注意的是：类数组无法使用 forEach、splice、push 等数组原型链上的方法，毕竟它不是真正的数组。
+```javascript
+let arrayLike = {
+    0: 1,
+    1: 2,
+    2: 3,
+    length: 3
+};
+```
+
 
 
 

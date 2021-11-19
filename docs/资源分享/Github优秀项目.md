@@ -11,6 +11,8 @@
     JavaScript经典代码
 6. [javascript](https://github.com/airbnb/javascript)
     JavaScript 编程风格指南
+7. [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+    深入了解原型链，this，闭包，词法作用域等
 
 ## 计算机
 1. [computer-science](https://github.com/ossu/computer-science)
