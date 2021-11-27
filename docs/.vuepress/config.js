@@ -50,6 +50,8 @@ module.exports = {
 					['/JavaScript/JavaScript之函数', 'JavaScript之函数'],
 					['/JavaScript/JavaScript之垃圾回收机制', 'JavaScript之垃圾回收机制'],
 					['/JavaScript/JavaScript之事件循环机制', 'JavaScript之事件循环机制'],
+					['/JavaScript/JavaScript之Promise对象', 'JavaScript之Promise对象'],
+
 				]
 			},
 			{
