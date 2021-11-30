@@ -238,6 +238,52 @@ let obj = {
 - 控制流管理
 - 部署 Iterator 接口:利用 Generator 函数，可以在任意对象上部署 Iterator 接口
 - 作为数据结构:Generator 可以看作是数据结构，更确切地说，可以看作是一个数组结构，因为 Generator 函数可以返回一系列的值，这意味着它可以对任意表达式，提供类似数组的接口。
+## Generator 函数的异步应用
+### 传统异方法
+- 回调函数
+- 事件监听
+- 发布/订阅
+- Promise 对象
+### 基本概念
+- 异步: 一个任务不是连续完成的
+- 回调函数: JavaScript 语言对异步编程的实现，就是回调函数。所谓回调函数，就是把任务的第二段单独写在一个函数里面，等到重新执行这个任务的时候，就直接调用这个函数。回调函数的英语名字callback，直译过来就是"重新调用"。
+- Promise: Promise 的写法只是回调函数的改进，使用then方法以后，异步任务的两段执行看得更清楚了，除此以外，并无新意。
+### Generator函数
+- 协程:多个线程互相协作，完成异步任务
+- 协程的 Generator 函数实现,整个 Generator 函数就是一个封装的异步任务，或者说是异步任务的容器。异步操作需要暂停的地方，都用yield语句注明。
+- Generator 函数的数据交换和错误处理: Generator 函数可以暂停执行和恢复执行，这是它能封装异步任务的根本原因。除此之外，它还有两个特性，使它可以作为异步编程的完整解决方案：函数体内外的数据交换和错误处理机制。
+- 异步任务的封装
+```javascript
+var fetch = require('node-fetch');
+function* gen(){
+  var url = 'https://api.github.com/users/github';
+  var result = yield fetch(url);
+  console.log(result.bio);
+}
+var g = gen();
+var result = g.next();
+
+result.value.then(function(data){
+  return data.json();
+}).then(function(data){
+  g.next(data);
+});
+```
+### Thunk 函数
+- Thunk 函数是自动执行 Generator 函数的一种方法。
+- Thunk 函数的含义:编译器的“传名调用”实现，往往是将参数放到一个临时函数之中，再将这个临时函数传入函数体。这个临时函数就叫做 Thunk 函数。
+- JavaScript 语言的 Thunk 函数:在 JavaScript 语言中，Thunk 函数替换的不是表达式，而是多参数函数，将其替换成一个只接受回调函数作为参数的单参数函数。
+- Thunkify 模块:生产环境的转换器，建议使用 Thunkify 模块
+- Generator 函数的流程管理:Thunk 函数现在可以用于 Generator 函数的自动流程管理
+- hunk 函数的自动流程管理
+### co模块
+- 用于 Generator 函数的自动执行。
+- co模块的原理:co 模块其实就是将两种自动执行器（Thunk 函数和 Promise 对象），包装成一个模块。使用 co 的前提条件是，Generator 函数的yield命令后面，只能是 Thunk 函数或 Promise 对象。如果数组或对象的成员，全部都是 Promise 对象，也可以使用 co
+- 基于 Promise 对象的自动执行
+
+
+
+
 
 
 
