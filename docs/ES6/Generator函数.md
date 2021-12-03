@@ -1,6 +1,6 @@
 ## 参考文章
 [Generator函数](https://es6.ruanyifeng.com/#docs/generator)
-## Generator语法
+## Generator基础使用
 ### 概念
 - Generator 函数是一个状态机，封装了多个内部状态。
 - 执行 Generator 函数会返回一个遍历器对象，也就是说，Generator 函数除了状态机，还是一个遍历器对象生成函数。返回的遍历器对象，可以依次遍历 Generator 函数内部的每一个状态。

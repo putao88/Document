@@ -57,7 +57,8 @@ module.exports = {
 					['/ES6/面向对象编程', '面向对象编程'],
 					['/ES6/Class', 'Class'],
 					['/ES6/Promise对象', 'Promise对象'],
-					['/ES6/Generator函数','Generator函数']
+					['/ES6/Generator函数','Generator函数'],
+					['/ES6/async函数','async函数'],
 				]
 			},
 			{
