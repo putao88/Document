@@ -41,6 +41,13 @@ module.exports = {
 				]
 			},
 			{
+				title: 'CSS', 
+				children: [
+					['/CSS/CSS盒模型', 'CSS盒模型'],
+					['/CSS/CSS选择器', 'CSS选择器'],
+				]
+			},
+			{
 				title: 'JavaScript', 
 				children: [
 					['/JavaScript/基础知识', '基础知识'],
