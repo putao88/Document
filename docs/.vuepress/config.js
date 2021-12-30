@@ -46,6 +46,8 @@ module.exports = {
 					['/CSS/CSS盒模型', 'CSS盒模型'],
 					['/CSS/CSS选择器', 'CSS选择器'],
 					['/CSS/BFC','BFC'],
+					['/CSS/flex布局','flex布局'],
+					['/CSS/CSS优先级','CSS优先级'],
 				]
 			},
 			{
