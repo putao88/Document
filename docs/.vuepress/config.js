@@ -47,6 +47,7 @@ module.exports = {
 					['/CSS/CSS选择器', 'CSS选择器'],
 					['/CSS/BFC','BFC'],
 					['/CSS/flex布局','flex布局'],
+					['/CSS/grid布局','grid布局'],
 					['/CSS/CSS优先级','CSS优先级'],
 				]
 			},
