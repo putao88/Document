@@ -10,6 +10,7 @@
 <body onload="hello()">
     <div id="box" onClick="doSomething('box')">
         <button id="btn">这是一个可以点击的按钮</button>
+        <span id="status"></span>
     </div>
     <script>
         function hello() {
@@ -20,6 +21,8 @@
         }
         var button = document.getElementById('btn');
         button.setAttribute('onclick', "doSomething('button')")
+        const status = '1';
+        document.getElementById('status').innerHTML = status
     </script>
 </body>
 

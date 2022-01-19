@@ -24,3 +24,19 @@
     - 第三阶段：从目标节点传导回window对象（从底层传回上层），称为“冒泡阶段”（bubbling phase）。
 - 注意，浏览器总是假定click事件的目标节点，就是点击位置嵌套最深的那个节点
 - 由于事件会在冒泡阶段向上传播到父节点，因此可以把子节点的监听函数定义在父节点上，由父节点的监听函数统一处理多个子元素的事件。这种方法叫做事件的代理（delegation
+
+### Event 对象
+- 事件发生以后，会产生一个事件对象，作为参数传给监听函数。浏览器原生提供一个Event对象，所有的事件都是这个对象的实例，或者说继承了Event.prototype对象。Event对象本身就是一个构造函数，可以用来生成新的实例。
+- 实例属性
+    - Event.bubbles，Event.eventPhase
+    - Event.cancelable，Event.cancelBubble，event.defaultPrevented
+    - Event.currentTarget，Event.target
+    - Event.type
+    - Event.timeStamp
+    - Event.isTrusted
+    - Event.detail
+- 实例方法
+    - Event.preventDefault()
+    - Event.stopPropagation()
+    - Event.stopImmediatePropagation()
+    - Event.composedPath()

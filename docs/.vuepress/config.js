@@ -96,6 +96,12 @@ module.exports = {
 				]
 			},
 			{
+				title: '性能', 
+				children: [
+						['/性能/前端性能优化', '前端性能优化'],
+				]
+			},
+			{
 				title: 'NodeJS', 
 				children: [
 						['/NodeJS/Express', 'Express'],

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <title>Title</title>
+</head>
+
+<body>
+    <div id="box">
+        <button id="btn">这是一个可以点击的按钮</button>
+    </div>
+    <script>
+        function hello () {
+            console.log('hello world')
+        }
+        var ev = new Event(
+            'click',
+            {
+                'bubbles': true,
+                'cancelable': false
+            }
+        )
+        var button = document.getElementById('btn');
+        var box = document.getElementById('box');
+        box.addEventListener('click', hello);
+        btn.addEventListener('click', hello);
+        btn.dispatchEvent(ev)
+    </script>
+</body>
+
+</html>
