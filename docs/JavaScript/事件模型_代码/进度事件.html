@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <title>Title</title>
+</head>
+
+<body>
+    <img id="image" src="https://putao88.github.io/background.jpg" style="width:200px;height:200px" />
+    <script>
+        var image = document.getElementById('image')
+
+        var p = new ProgressEvent('load', {
+            lengthComputable: true,
+            loaded: 30,
+            total: 100,
+        });
+
+        image.addEventListener('load', function (e) {
+            console.log(e)
+            console.log('已经加载：' + (e.loaded / e.total) * 100 + '%');
+        });
+
+        image.dispatchEvent(p);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <title>Title</title>
+</head>
+
+<body>
+    <input type="text" id="myInput">
+    <script>
+        var input = document.getElementById('myInput');
+        input.addEventListener('input', myFunction, false);
+
+        function myFunction(e) {
+            console.log(e.inputType);
+            console.log(e.dataTransfer);
+        }
+    </script>
+</body>
+
+</html>

@@ -40,3 +40,26 @@
     - Event.stopPropagation()
     - Event.stopImmediatePropagation()
     - Event.composedPath()
+
+### 鼠标事件
+- 鼠标事件主要有下面这些，所有事件都继承了MouseEvent接口
+- MouseEvent接口代表了鼠标相关的事件，单击（click）、双击（dblclick）、松开鼠标键（mouseup）、按下鼠标键（mousedown）等动作，所产生的事件对象都是MouseEvent实例。此外，滚轮事件和拖拉事件也是MouseEvent实例。
+- MouseEvent接口继承了Event接口，所以拥有Event的所有属性和方法，并且还提供鼠标独有的属性和方法。
+
+### 键盘事件
+- 键盘事件由用户击打键盘触发，主要有keydown、keypress、keyup三个事件，它们都继承了KeyboardEvent接口。
+    - keydown：按下键盘时触发。
+    - keypress：按下有值的键时触发，即按下 Ctrl、Alt、Shift、Meta 这样无值的键，这个事件不会触发。对于有值的键，按下时先触发keydown事件，再触发这个事件。
+    - keyup：松开键盘时触发该事件
+### 进度事件
+- 进度事件用来描述资源加载的进度，主要由 AJAX 请求、<img>、<audio>、<video>、<style>、<link>等外部资源的加载触发，继承了ProgressEvent接口。
+    - abort：外部资源中止加载时（比如用户取消）触发。如果发生错误导致中止，不会触发该事件。
+    - error：由于错误导致外部资源无法加载时触发。
+    - load：外部资源加载成功时触发。
+    - loadstart：外部资源开始加载时触发。
+    - loadend：外部资源停止加载时触发，发生顺序排在error、abort、load等事件的后面。
+    - progress：外部资源加载过程中不断触发。
+    - timeout：加载超时时触发。
+### 表单事件
+
+

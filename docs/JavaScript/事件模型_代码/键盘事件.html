@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <title>Title</title>
+</head>
+
+<body>
+    <div style="height:1300px">xxx</div>
+    <script>
+        function showChar(e) {
+            console.log('ALT: ' + e.altKey);
+            console.log('CTRL: ' + e.ctrlKey);
+            console.log('Meta: ' + e.metaKey);
+            console.log('Shift: ' + e.shiftKey);
+            console.log('Code: ' + e.code)
+            console.log('Key: ' + e.key)
+            console.log('Location: ' + e.location)
+            console.log('Repeat: ' + e.repeat)
+        }
+
+        document.body.addEventListener('keydown', showChar, false);
+
+    </script>
+</body>
+
+</html>
