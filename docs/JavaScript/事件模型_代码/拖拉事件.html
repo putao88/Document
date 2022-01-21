@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <title>Title</title>
+</head>
+<style>
+</style>
+<body>
+    <div id="drag-with-image" class="dragdemo" draggable="true">
+        drag me
+      </div>
+    <script>
+        var div = document.getElementById('drag-with-image');
+        div.addEventListener('dragstart', function (e) {
+        var img = document.createElement('img');
+        img.src = 'http://path/to/img';
+        e.dataTransfer.setDragImage(img, 0, 0);
+        }, false);
+
+    </script>
+</body>
+
+</html>
