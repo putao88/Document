@@ -65,3 +65,12 @@
 ### 托拉事件
 - 拖拉（drag）指的是，用户在某个对象上按下鼠标键不放，拖动它到另一个位置，然后释放鼠标键，将该对象放在那里。
 - 拖拉的对象有好几种，包括元素节点、图片、链接、选中的文字等等。在网页中，除了元素节点默认不可以拖拉，其他（图片、链接、选中的文字）都可以直接拖拉。为了让元素节点可拖拉，可以将该节点的draggable属性设为true。
+### GlobalEventHandlers 接口
+- HTMLElement、Document和Window都继承了这个接口，也就是说，各种 HTML 元素、document对象、window对象上面都可以使用GlobalEventHandlers接口提供的属性。
+- 事件:
+    GlobalEventHandlers.onabort
+    GlobalEventHandlers.onerror
+    GlobalEventHandlers.onload、GlobalEventHandlers.onloadstart
+    GlobalEventHandlers.onfocus，GlobalEventHandlers.onblur
+    GlobalEventHandlers.onscroll
+    GlobalEventHandlers.oncontextmenu，GlobalEventHandlers.onshow
