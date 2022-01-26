@@ -15,163 +15,180 @@ module.exports = {
 		collapsable: true, 
 	  lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
 	  nav:[ //导航
+			{ text: 'Study', link: '/Study/前端学习路线/概览' },
+			{ text: 'Chrome', link: '/Chrome/Devtools/概览' },
+			{ text: '面试', link: '/面试/前端面试准备/概览' },
 			{ text: '博客', link: 'https://putao88.github.io' }, // 外部链接
 			{ text: 'GitHub', link: 'https://github.com/putao88/Document' }, // 内部链接 以docs为根目录
 	  ],
-	  sidebar:[
+	  sidebar:{
+		  '/Study/':[
 			{
 				title: '前端学习路线', 
 				children: [
-						['/前端学习路线/概览', '概览'],
+						['/Study/前端学习路线/概览', '概览'],
 				]
 			},
 			{
 				title: '资源分享',
 				children: [
-						['/资源分享/资源导航', '资源导航'],
-						['/资源分享/Github优秀项目', 'Github优秀项目'],
+						['/Study/资源分享/资源导航', '资源导航'],
+						['/Study/资源分享/Github优秀项目', 'Github优秀项目'],
 				]
 			},
 			{
 				title: '常用知识点总结', 
 				children: [
-						['/常用知识点总结/1.常用的正则校验', '1.常用的正则校验'],
-						['/常用知识点总结/2.工作中常见问题', '2.工作中常见问题'],
-						['/常用知识点总结/3.常用JavaScript方法封装', '3.常用JavaScript方法封装'],
+						['/Study/常用知识点总结/1.常用的正则校验', '1.常用的正则校验'],
+						['/Study/常用知识点总结/2.工作中常见问题', '2.工作中常见问题'],
+						['/Study/常用知识点总结/3.常用JavaScript方法封装', '3.常用JavaScript方法封装'],
 				]
 			},
 			{
 				title: 'CSS', 
 				children: [
-					['/CSS/CSS盒模型', 'CSS盒模型'],
-					['/CSS/CSS选择器', 'CSS选择器'],
-					['/CSS/BFC','BFC'],
-					['/CSS/flex布局','flex布局'],
-					['/CSS/grid布局','grid布局'],
-					['/CSS/CSS优先级','CSS优先级'],
-					['/CSS/层叠上下文','层叠上下文'],
+					['/Study/CSS/CSS盒模型', 'CSS盒模型'],
+					['/Study/CSS/CSS选择器', 'CSS选择器'],
+					['/Study/CSS/BFC','BFC'],
+					['/Study/CSS/flex布局','flex布局'],
+					['/Study/CSS/grid布局','grid布局'],
+					['/Study/CSS/CSS优先级','CSS优先级'],
+					['/Study/CSS/层叠上下文','层叠上下文'],
 				]
 			},
 			{
 				title: 'JavaScript', 
 				children: [
-					['/JavaScript/基础知识', '基础知识'],
-					['/JavaScript/JavaScript之面向对象', 'JavaScript之面向对象'],
-					['/JavaScript/JavaScript之执行环境', 'JavaScript之执行环境'],
-					['/JavaScript/JavaScript之函数', 'JavaScript之函数'],
-					['/JavaScript/JavaScript之垃圾回收机制', 'JavaScript之垃圾回收机制'],
-					['/JavaScript/JavaScript之事件循环机制', 'JavaScript之事件循环机制'],
-					['/JavaScript/JavaScript之事件模型', 'JavaScript之事件模型'],
+					['/Study/JavaScript/基础知识', '基础知识'],
+					['/Study/JavaScript/JavaScript之面向对象', 'JavaScript之面向对象'],
+					['/Study/JavaScript/JavaScript之执行环境', 'JavaScript之执行环境'],
+					['/Study/JavaScript/JavaScript之函数', 'JavaScript之函数'],
+					['/Study/JavaScript/JavaScript之垃圾回收机制', 'JavaScript之垃圾回收机制'],
+					['/Study/JavaScript/JavaScript之事件循环机制', 'JavaScript之事件循环机制'],
+					['/Study/JavaScript/JavaScript之事件模型', 'JavaScript之事件模型'],
 				]
 			},
 			{
 				title: 'ES6', 
 				children: [
-					['/ES6/面向对象编程', '面向对象编程'],
-					['/ES6/Class', 'Class'],
-					['/ES6/Promise对象', 'Promise对象'],
-					['/ES6/Generator函数','Generator函数'],
-					['/ES6/async函数','async函数'],
+					['/Study/ES6/面向对象编程', '面向对象编程'],
+					['/Study/ES6/Class', 'Class'],
+					['/Study/ES6/Promise对象', 'Promise对象'],
+					['/Study/ES6/Generator函数','Generator函数'],
+					['/Study/ES6/async函数','async函数'],
 				]
 			},
 			{
 				title: 'Vue', 
 				children: [
-						['/Vue/基础知识', '基础知识'],
+						['/Study/Vue/基础知识', '基础知识'],
 				]
 			},
 			{
 				title: 'React', 
 				children: [
-						['/React/Hook', 'Hook'],
+						['/Study/React/Hook', 'Hook'],
 				]
 			},
 			{
 				title: '浏览器', 
 				children: [
-						['/浏览器/基础知识', '基础知识'],
-						['/浏览器/缓存策略', '缓存策略'],
-						['/浏览器/同源策略', '同源策略'],
-						['/浏览器/前端路由模式', '前端路由模式'],
+						['/Study/浏览器/基础知识', '基础知识'],
+						['/Study/浏览器/缓存策略', '缓存策略'],
+						['/Study/浏览器/同源策略', '同源策略'],
+						['/Study/浏览器/前端路由模式', '前端路由模式'],
 				]
 			},
 			{
 				title: '性能', 
 				children: [
-						['/性能/前端性能优化', '前端性能优化'],
+						['/Study/性能/前端性能优化', '前端性能优化'],
 				]
 			},
 			{
 				title: 'NodeJS', 
 				children: [
-						['/NodeJS/Express', 'Express'],
+						['/Study/NodeJS/Express', 'Express'],
 				]
 			},
 			{
 				title: 'ReactNative', 
 				children: [
-						['/ReactNative/1.安装及配置', '1.安装及配置'],
+						['/Study/ReactNative/1.安装及配置', '1.安装及配置'],
 				]
 			},
 			{
 				title: 'TypeScript', 
 				children: [
-						['/TypeScript/介绍和JavaScript对比', '介绍和JavaScript对比'],
+						['/Study/TypeScript/介绍和JavaScript对比', '介绍和JavaScript对比'],
 				]
 			},
 			{
 				title: 'WeChat',
 				children: [
-						['/WeChat/微信小程序', '微信小程序'],  
-						['/WeChat/mpvue', 'mpvue'],  
+						['/Study/WeChat/微信小程序', '微信小程序'],  
+						['/Study/WeChat/mpvue', 'mpvue'],  
 				]
 			},
 			{
 				title: '算法', 
 				children: [
-						['/算法/概览', '概览'],
+						['/Study/算法/概览', '概览'],
 				]
 			},
 			{
 				title: '博客搭建', 
 				children: [
-						['/博客搭建/1.搭建步骤', '1.搭建步骤'],
-						['/博客搭建/2.疑难问题', '2.疑难问题'],
+						['/Study/博客搭建/1.搭建步骤', '1.搭建步骤'],
+						['/Study/博客搭建/2.疑难问题', '2.疑难问题'],
 				]
 			},
 
 			{
 				title: 'flutter',
 				children: [
-						['/flutter/AndroidStudio的安装及环境配置', 'AndroidStudio的安装及环境配置'],  
+						['/Study/flutter/AndroidStudio的安装及环境配置', 'AndroidStudio的安装及环境配置'],  
 				]
 			},
 			{
 				title: 'Git', 
 				children: [
-						['/Git/基础用法', '基础用法'],
+						['/Study/Git/基础用法', '基础用法'],
 				]
 			},
+		],
+		'/Chrome/':[
+			{
+				title:'Chrome调试',
+				sidebarDepth: 2,
+				children: [
+					['/Chrome/Devtools/概览','概览'],
+					['/Chrome/Devtools/CSS','CSS'],
+				],
+			}
+		],
+		'/面试/':[
 			{
 				title: '前端面试准备', 
 				children: [
-						['/前端面试准备/概览', '概览'],
-						['/前端面试准备/CSS', 'CSS'],
-						['/前端面试准备/JavaScript', 'JavaScript'],
-						['/前端面试准备/ES6', 'ES6'],
-						['/前端面试准备/Vue', 'Vue'],
-						['/前端面试准备/React', 'React'],
-						['/前端面试准备/浏览器', '浏览器'],
-						['/前端面试准备/前端工程化', '前端工程化'],
-						['/前端面试准备/前端性能优化', '前端性能优化'],
-						['/前端面试准备/前端安全', '前端安全'],
-						['/前端面试准备/算法', '算法'],
-						['/前端面试准备/面试记录', '面试记录'],
-						['/前端面试准备/常考面试题目总结', '常考面试题目总结'],
-						['/前端面试准备/网上相关公司面试题目总结', '网上相关公司面试题目总结'],
-						['/前端面试准备/资源', '资源'],
+						['/面试/前端面试准备/概览', '概览'],
+						['/面试/前端面试准备/CSS', 'CSS'],
+						['/面试/前端面试准备/JavaScript', 'JavaScript'],
+						['/面试/前端面试准备/ES6', 'ES6'],
+						['/面试/前端面试准备/Vue', 'Vue'],
+						['/面试/前端面试准备/React', 'React'],
+						['/面试/前端面试准备/浏览器', '浏览器'],
+						['/面试/前端面试准备/前端工程化', '前端工程化'],
+						['/面试/前端面试准备/前端性能优化', '前端性能优化'],
+						['/面试/前端面试准备/前端安全', '前端安全'],
+						['/面试/前端面试准备/算法', '算法'],
+						['/面试/前端面试准备/面试记录', '面试记录'],
+						['/面试/前端面试准备/常考面试题目总结', '常考面试题目总结'],
+						['/面试/前端面试准备/网上相关公司面试题目总结', '网上相关公司面试题目总结'],
+						['/面试/前端面试准备/资源', '资源'],
 				]
 			},
 		]
+	  }
 	}
 };
