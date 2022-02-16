@@ -88,6 +88,7 @@ module.exports = {
 				title: 'React', 
 				children: [
 						['/Study/React/Hook', 'Hook'],
+						['/Study/React/Redux', 'Redux'],
 				]
 			},
 			{
