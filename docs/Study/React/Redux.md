@@ -1,5 +1,6 @@
 ## 参考文章
 - [Redux中文官网](https://cn.redux.js.org/introduction/getting-started)
+- [React-Redux](https://www.redux.org.cn/docs/react-redux/api.html)
 - [Redux从设计到源码](https://tech.meituan.com/2017/07/14/redux-design-code.html)
 
 ## Redux基础使用
