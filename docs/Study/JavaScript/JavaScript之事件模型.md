@@ -1,4 +1,4 @@
-## 参考文章
+## 参考资料
 - [事件模型](https://wangdoc.com/javascript/events/index.html)
 - [EventTarget 接口](https://wangdoc.com/javascript/events/eventtarget.html)
 - [事件模型](https://wangdoc.com/javascript/events/model.html)

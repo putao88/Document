@@ -1,4 +1,4 @@
-## 参考文章
+## 参考资料
 - [CSS盒模型详解](https://juejin.cn/post/6844903505983963143)
 - [CSS盒模型完整介绍](https://segmentfault.com/a/1190000013069516)
 

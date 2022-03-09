@@ -1,4 +1,4 @@
-## 参考文章
+## 参考资料
 [CSS权重及优先级](https://zhuanlan.zhihu.com/p/41604775)
 
 ## CSS权重优先级基本概念

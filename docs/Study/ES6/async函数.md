@@ -1,4 +1,4 @@
-## 参考文章
+## 参考资料
 [async函数](https://es6.ruanyifeng.com/#docs/async)
 
 ## async基础使用

@@ -1,4 +1,4 @@
-## 参考文章
+## 参考资料
 - [Javascript事件循环机制](https://juejin.cn/post/6844903512845860872)
 - [事件循环机制](https://zhuanlan.zhihu.com/p/33058983)
 

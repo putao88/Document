@@ -1,4 +1,4 @@
-## 参考文章
+## 参考资料
 [Generator函数](https://es6.ruanyifeng.com/#docs/generator)
 ## Generator基础使用
 ### 概念

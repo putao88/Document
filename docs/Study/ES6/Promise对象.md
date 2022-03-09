@@ -1,4 +1,4 @@
-## 参考文章
+## 参考资料
 - [Promise对象](https://es6.ruanyifeng.com/#docs/promise)
 
 ## Promise含义

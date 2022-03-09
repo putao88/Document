@@ -1,4 +1,4 @@
-##  参考文章
+##  参考资料
 [Class](https://es6.ruanyifeng.com/#docs/class)
 ## Class基础使用
 ### 简介
