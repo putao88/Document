@@ -166,6 +166,7 @@ module.exports = {
 				children: [
 					['/Chrome/Devtools/概览','概览'],
 					['/Chrome/Devtools/CSS','CSS'],
+					['/Chrome/Devtools/技术分享','技术分享'],
 				],
 			}
 		],
