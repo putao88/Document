@@ -89,6 +89,7 @@ module.exports = {
 				children: [
 						['/Study/React/Hook', 'Hook'],
 						['/Study/React/Redux', 'Redux'],
+						['/Study/React/React+Ts项目搭建', 'React+Ts项目搭建'],
 				]
 			},
 			{
