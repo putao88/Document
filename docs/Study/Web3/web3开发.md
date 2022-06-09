@@ -1,12 +1,18 @@
 ## 常用相关地址
 - [BSC网络连接](https://docs.binance.org/smart-chain/developer/rpc.html#testnetchainid-0x61-97-in-decimal)
-- [BNB Hero原网站](https://play.bnbheroes.io/)
 - [BNB测试网站](https://testnet.bscscan.com/)
 - [BNB测试币领取地址](https://testnet.binance.org/faucet-smart)
-- [文档地址](https://shimo.im/docs/pPyxxJjWPKxPQYD8/ )
-- [vue参考项目](https://github.com/joaquin-alfaro/ethereum-payment-vuejs)
-- [英雄合约代码地址](https://bscscan.com/address/0x5ca334e4b585da8e6054f16d991ed4399ef33d24#code)
-- [金额合约代码地址](https://pancake.kiemtienonline360.com/#/swap)
+
+## 开发文档
+- [Solidity](https://solidity-cn.readthedocs.io/zh/develop/)
+  合约开发参考教程
+- [Hardhat 入门教程](https://learnblockchain.cn/article/1356)
+- [Hardhat](https://learnblockchain.cn/docs/hardhat/getting-started/)
+  编译部署合约
+- [foundry](https://mirror.xyz/0xaaE7a1AD2764626d09a233a9bC06C38b413637cf/Z_BSs7ajgPE2NjOnyH73Uq5FBLGmDpOTeMtNwhazo3s)
+  可用于单元测试
+
+
 
 ## 连接metaMask
 ### BSC测试网

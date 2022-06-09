@@ -138,7 +138,7 @@ module.exports = {
 				title: 'Web3',
 				children: [
 						['/Study/Web3/基础知识', '基础知识'],  
-						['/Study/Web3/web3连接', 'web3连接'],  
+						['/Study/Web3/web3开发', 'web3开发'],  
 				]
 			},
 			{
