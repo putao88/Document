@@ -21,7 +21,7 @@
 2. 链ID: 97
 3. 新增 RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545/
 4. Currency Symbol: BNB
-5. 区块浏览器: https://bscscan.com
+5. 区块浏览器: https://test.bscscan.com
 
 ### BSC主网
 1. 网络名称: BSC主网
