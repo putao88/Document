@@ -1,0 +1,2 @@
+## css设置元素宽高等比缩放
+- [css实现高度height随宽度width变化保持比例不变](https://daolang.blog.csdn.net/article/details/79161064?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-79161064-blog-96024056.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-79161064-blog-96024056.pc_relevant_aa2&utm_relevant_index=1)
