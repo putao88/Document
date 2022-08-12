@@ -93,6 +93,12 @@ module.exports = {
 				]
 			},
 			{
+				title: 'Electron', 
+				children: [
+						['/Study/Electron/基础知识', '基础知识'],
+				]
+			},
+			{
 				title: '工程化', 
 				children: [
 						['/Study/工程化/模块化机制', '模块化机制'],
