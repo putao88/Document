@@ -3,7 +3,10 @@
   React开发备忘单
 - [从零开始搭建规范的typescript-react项目](https://blog.csdn.net/qq_43742385/article/details/118419080) 
 - [eslint和prettier的npm包和vscode插件](https://juejin.cn/post/6990929456382607374)
-
+- [优雅的提交你的 Git Commit Message](https://juejin.cn/post/6844903606815064077)
+- [husky7.0.1 + commitlint 配置提交代码检查和规范踩坑指南](https://juejin.cn/post/6988116616923840549)
+- [使用 husky 进行提交前的代码规范校验和 commit 信息检查](https://blog.csdn.net/huangpb123/article/details/102690412?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-102690412-blog-124365505.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-102690412-blog-124365505.pc_relevant_default&utm_relevant_index=6)
+  这个版本比较齐全
 ## 官方脚手架搭建(create-react-app)
 - 配置代码规范，使用的是(Eslint+prettier+husky+lint-staged+commitlint)
 ### 初始化项目
@@ -75,7 +78,7 @@ npm install -D husky
 ```javascript
 npm install -D lint-staged
 ```
-2. 更改husky配置
+2. 更改husky配置(这个配置只适用于4.x版本的husky)
 ```javascript
 "husky": {
     "hooks": {
