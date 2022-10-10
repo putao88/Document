@@ -1,14 +1,26 @@
 ## 参考资料
 - [react-typescript-cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
   React开发备忘单
-- [从零开始搭建规范的typescript-react项目](https://blog.csdn.net/qq_43742385/article/details/118419080) 
 - [eslint和prettier的npm包和vscode插件](https://juejin.cn/post/6990929456382607374)
 - [优雅的提交你的 Git Commit Message](https://juejin.cn/post/6844903606815064077)
-- [husky7.0.1 + commitlint 配置提交代码检查和规范踩坑指南](https://juejin.cn/post/6988116616923840549)
 - [使用 husky 进行提交前的代码规范校验和 commit 信息检查](https://blog.csdn.net/huangpb123/article/details/102690412?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-102690412-blog-124365505.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-102690412-blog-124365505.pc_relevant_default&utm_relevant_index=6)
-  这个版本比较齐全
+- [Eslint + Prettier + Husky + Commitlint+ Lint-staged 规范前端工程代码规范](https://juejin.cn/post/7038143752036155428)
 ## 官方脚手架搭建(create-react-app)
 - 配置代码规范，使用的是(Eslint+prettier+husky+lint-staged+commitlint)
+- husky：Git hooks 工具
+  - 对git执行的一些命令，通过对应的hooks钩子触发，执行自定义的脚本程序
+- lint-staged：检测文件插件
+  - 只检测git add . 中暂存区的文件，对过滤出的文件执行脚本
+- eslint：插件化JavaScript代码检测工具
+  - Js编码规范，检测并提示错误或警告信息
+- prettier：代码格式化工具
+  - 代码风格管理，更好的代码风格效果
+- editorconfig：文件代码规范
+  - 保持多人开发一致编码样式
+- commitlint：代码提交检测
+  - 检测git commit 内容是否符合定义的规范
+- commitizen：代码提交内容标准化
+  - 提示定义输入标准的git commit 内容
 ### 初始化项目
 ```javascript
 npm install -g create-react-app
