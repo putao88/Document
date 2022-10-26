@@ -104,6 +104,7 @@ module.exports = {
 						['/Study/工程化/模块化机制', '模块化机制'],
 						['/Study/工程化/webpack', 'webpack'],
 						['/Study/工程化/uglify原理', 'uglify原理'],
+						['/Study/工程化/Babel', 'Babel'],
 				]
 			},
 			{
@@ -178,6 +179,15 @@ module.exports = {
 				title: 'Git', 
 				children: [
 						['/Study/Git/基础用法', '基础用法'],
+				]
+			},
+			{
+				title: '微前端', 
+				children: [
+						['/Study/微前端/基础知识', '基础知识'],
+						['/Study/微前端/micro-app', 'micro-app'],
+						['/Study/微前端/qiankun', 'qiankun'],
+						['/Study/微前端/技术分享', '技术分享'],
 				]
 			},
 		],
