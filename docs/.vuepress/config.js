@@ -44,6 +44,7 @@ module.exports = {
 						['/Study/常用知识点总结/常用JavaScript方法封装', '常用JavaScript方法封装'],
 						['/Study/常用知识点总结/axios的封装', 'axios的封装'],
 						['/Study/常用知识点总结/移动端真机调试', '移动端真机调试'],
+						['/Study/常用知识点总结/SSH文件传输', 'SSH文件传输'],
 				]
 			},
 			{
