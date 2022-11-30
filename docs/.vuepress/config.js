@@ -16,7 +16,6 @@ module.exports = {
 	  lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
 	  nav:[ //导航
 			{ text: 'Study', link: '/Study/前端学习路线/概览' },
-			{ text: 'Chrome', link: '/Chrome/Devtools/概览' },
 			{ text: '面试', link: '/面试/前端面试准备/概览' },
 			{ text: '博客', link: 'https://putao88.github.io' }, // 外部链接
 			{ text: 'GitHub', link: 'https://github.com/putao88/Document' }, // 内部链接 以docs为根目录
@@ -194,15 +193,12 @@ module.exports = {
 						['/Study/微前端/技术分享', '技术分享'],
 				]
 			},
-		],
-		'/Chrome/':[
 			{
 				title:'Chrome调试',
-				sidebarDepth: 2,
 				children: [
-					['/Chrome/Devtools/概览','概览'],
-					['/Chrome/Devtools/CSS','CSS'],
-					['/Chrome/Devtools/技术分享','技术分享'],
+					['/Study/Chrome调试/概览','概览'],
+					['/Study/Chrome调试/CSS','CSS'],
+					['/Study/Chrome调试/技术分享','技术分享'],
 				],
 			}
 		],
