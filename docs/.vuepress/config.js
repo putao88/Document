@@ -16,9 +16,9 @@ module.exports = {
 	  lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
 	  nav:[ //导航
 			{ text: 'Study', link: '/Study/前端学习路线/概览' },
-			{ text: '面试', link: '/面试/前端面试准备/概览' },
-			{ text: '博客', link: 'https://putao88.github.io' }, // 外部链接
-			{ text: 'GitHub', link: 'https://github.com/putao88/Document' }, // 内部链接 以docs为根目录
+			{ text: '面试', link: '/面试/前端面试准备/概览' },// 内部链接 以docs为根目录
+			{ text: 'Web3', link: '/Web3/web3开发/基础知识' },
+			{ text: 'GitHub', link: 'https://github.com/putao88/Document' }, // 外部链接
 	  ],
 	  sidebar:{
 		  '/Study/':[
@@ -146,13 +146,6 @@ module.exports = {
 				]
 			},
 			{
-				title: 'Web3',
-				children: [
-						['/Study/Web3/基础知识', '基础知识'],  
-						['/Study/Web3/web3开发', 'web3开发'],  
-				]
-			},
-			{
 				title: 'WeChat',
 				children: [
 						['/Study/WeChat/微信小程序', '微信小程序'],  
@@ -224,6 +217,15 @@ module.exports = {
 						['/面试/前端面试准备/预期面试', '预期面试'],
 						['/面试/前端面试准备/面试题目准备', '面试题目准备'],
 						['/面试/前端面试准备/资源', '资源'],
+				]
+			},
+		],
+		'/Web3/':[
+			{
+				title: 'web3开发', 
+				children: [
+						['/Web3/web3开发/基础知识', '基础知识'],
+						['/Web3/web3开发/web3常用地址', 'web3常用地址'],
 				]
 			},
 		]
