@@ -1,3 +1,5 @@
+## 学习资源
+- [web3学习资源](https://github.com/luzhenqian/web3-examples/blob/main/docs/awesome.md)
 ## 常用相关地址
 - [RPC网络连接设置](https://docs.bnbchain.org/docs/rpc/)
 - [BSC网络连接](https://docs.binance.org/smart-chain/developer/rpc.html#testnetchainid-0x61-97-in-decimal)

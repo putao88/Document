@@ -18,6 +18,9 @@
 9. [ahooks](https://github.com/alibaba/hooks)
     hooks的封装
 
+## web3
+1. [web3学习资源](https://github.com/luzhenqian/web3-examples/blob/main/docs/awesome.md)
+
 ## 计算机
 1. [computer-science](https://github.com/ossu/computer-science)
     OSSU 的课程为所有想要学习计算机科学的人提供了大量的免费学习资源
