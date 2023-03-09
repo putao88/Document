@@ -109,6 +109,7 @@ module.exports = {
 						['/Study/工程化/webpack', 'webpack'],
 						['/Study/工程化/uglify原理', 'uglify原理'],
 						['/Study/工程化/Babel', 'Babel'],
+						['/Study/工程化/前端工程代码规范化', '前端工程代码规范化'],
 				]
 			},
 			{

@@ -20,9 +20,9 @@
 - editorconfig：文件代码规范
   - 保持多人开发一致编码样式
 - commitlint：代码提交检测
-  - 检测git commit 内容是否符合定义的规范
-- commitizen：代码提交内容标准化
-  - 提示定义输入标准的git commit 内容
+  - 检测git commit 内容是否符合定义的规范,可以自定义commit message的提示信息
+- commitizen: 规范提交信息
+  - 可以根据标准的git commit 内容,选择合适的commit,给固定的选项,不让开发自定义提交内容
 ### 初始化项目
 ```javascript
 npm install -g create-react-app

@@ -4,7 +4,7 @@
 - [RPC网络连接设置](https://docs.bnbchain.org/docs/rpc/)
 - [BSC网络连接](https://docs.binance.org/smart-chain/developer/rpc.html#testnetchainid-0x61-97-in-decimal)
 - [BNB测试网站](https://testnet.bscscan.com/)
-- [BNB测试币领取地址](https://testnet.binance.org/faucet-smart)
+- [BNB测试币领取地址](https://testnet.bnbchain.org/faucet-smart)
 
 ## 开发文档
 - [Solidity](https://solidity-cn.readthedocs.io/zh/develop/)
