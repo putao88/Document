@@ -110,6 +110,8 @@ module.exports = {
 						['/Study/工程化/uglify原理', 'uglify原理'],
 						['/Study/工程化/Babel', 'Babel'],
 						['/Study/工程化/前端工程代码规范化', '前端工程代码规范化'],
+						['/Study/工程化/前端打包构建工具', '前端打包构建工具'],
+						['/Study/工程化/gulp', 'gulp'],
 				]
 			},
 			{
