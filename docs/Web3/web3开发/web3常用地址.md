@@ -1,5 +1,10 @@
 ## 学习资源
 - [web3学习资源](https://github.com/luzhenqian/web3-examples/blob/main/docs/awesome.md)
+- [Chaintool](https://chaintool.tech/)
+  开源工具箱
+- [登链社区](https://learnblockchain.cn/)
+  区块链技术社区
+- [ethers.js 中文文档](https://learnblockchain.cn/ethers_v5/)
 ## 常用相关地址
 - [RPC网络连接设置](https://docs.bnbchain.org/docs/rpc/)
 - [BSC网络连接](https://docs.binance.org/smart-chain/developer/rpc.html#testnetchainid-0x61-97-in-decimal)
