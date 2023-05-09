@@ -5,6 +5,9 @@
 - [登链社区](https://learnblockchain.cn/)
   区块链技术社区
 - [ethers.js 中文文档](https://learnblockchain.cn/ethers_v5/)
+- [Dapp-Learning](https://github.com/Dapp-Learning-DAO/Dapp-Learning/blob/main/README-CN.md)
+- [精通以太坊](https://github.com/inoutcode/ethereum_book)
+
 ## 常用相关地址
 - [RPC网络连接设置](https://docs.bnbchain.org/docs/rpc/)
 - [BSC网络连接](https://docs.binance.org/smart-chain/developer/rpc.html#testnetchainid-0x61-97-in-decimal)
