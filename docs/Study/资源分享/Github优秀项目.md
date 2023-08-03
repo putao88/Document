@@ -39,5 +39,12 @@
 ## 求职面试
 1. [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
     面试全流程需要注意的事项都在里面了，包含从简历准备、面经和谈判全过程，教你如何避雷不踩坑
+2. [awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)
+    远程工作的的收集清单
+3. [remote-jobs](https://github.com/remoteintech/remote-jobs)
+    远程工作的的收集清单
+4. [remote-jobs-in-china](https://github.com/LinuxSuRen/remote-jobs-in-china)
+    支持远程办公的中国公司
+
 
 
